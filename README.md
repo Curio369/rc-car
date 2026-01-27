@@ -2,12 +2,8 @@
 
 A high-performance, 4-wheel drive (4WD) skid-steer robot controlled via Wi-Fi using an ESP8266 NodeMCU. This project features a **Dual-Driver, Dual-Battery architecture** to maximize power delivery and prevent microcontroller resets during high-load scenarios.
 
-## 📸 Project Photos
-| Robot View | Circuit Diagram |
-| :---: | :---: |
-| <img src="images/robot.jpg" width="300" alt="Robot Body"> | <img src="images/circuit.jpg" width="300" alt="Circuit Wiring"> |
 
-## 🌟 Features
+## Features
 * **Wi-Fi Control:** Creates its own Hotspot (Access Point). No router needed.
 * **Dual Power Systems:** Separate batteries for Left and Right motors to handle high current.
 * **High Stability:** Uses a Buck Converter to provide clean 5V power to the "Brain" (ESP8266).
@@ -16,7 +12,7 @@ A high-performance, 4-wheel drive (4WD) skid-steer robot controlled via Wi-Fi us
 
 ---
 
-## 🛠️ Hardware Requirements (BOM)
+##  Hardware Requirements (BOM)
 
 | Component | Quantity | Description |
 | :--- | :--- | :--- |
@@ -30,7 +26,7 @@ A high-performance, 4-wheel drive (4WD) skid-steer robot controlled via Wi-Fi us
 | **Chassis** | 1 | Robot frame/body |
 
 ---
-
+![alt text](images-videos/circuit.jpg)
 ## 🔌 Wiring Guide (The Architecture)
 
 This robot uses a **Split-Power Island** design.
@@ -68,7 +64,7 @@ This robot uses a **Split-Power Island** design.
 
 ---
 
-## 💻 Software Setup
+## Software Setup
 
 1.  **Install Arduino IDE:** [Download here](https://www.arduino.cc/en/software).
 2.  **Install ESP8266 Board Manager:**
@@ -80,7 +76,7 @@ This robot uses a **Split-Power Island** design.
 
 ---
 
-## 📱 App Configuration (RoboRemoFree)
+## App Configuration (RoboRemoFree)
 
 1.  **Download:** Install **RoboRemoFree** from the Google Play Store.
 2.  **Connect:**
@@ -103,5 +99,5 @@ Mobile Data: If the app fails to connect ("Socket Timeout"), ensure Mobile Data 
 
 Heat Check: After aggressive driving, check the black heatsinks on the L298N drivers. Warm is okay; too hot to touch means you need a break.
 
-🤝 Contributing
+ Contributing
 Feel free to fork this project and add features like Speed Control (PWM) or Obstacle Avoidance sensors!
